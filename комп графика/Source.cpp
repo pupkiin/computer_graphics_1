@@ -11,8 +11,7 @@ void ShowMenu();
 
 int main(void)
 {
-	system("chcp 1251");
-	setlocale(LC_ALL, "Russian");;
+	setlocale(LC_ALL, "Russian");
 	initwindow(720, 480); // инициализация окна
 	float a = 0.05; // Угол в радианах на который вращаем
 	float b = 1.1; // Коэффициент маштабирования
